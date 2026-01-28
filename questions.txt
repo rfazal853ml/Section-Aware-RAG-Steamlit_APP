@@ -1,0 +1,43 @@
+--- Agricultural.pdf
+
+Which countries and institutions were identified as the most productive in renewable energy research in the agricultural sector between 2019 and 2021?
+
+What are the main thematic research clusters identified in the bibliometric analysis of renewable energy in agriculture, and what keywords characterize each cluster?
+
+How do agrovoltaic systems and biomass-based energy solutions contribute differently to sustainability goals in agriculture according to the reviewed studies?
+
+
+--- Classifications.pdf
+
+According to the data provided for the United States in 2020, what were the specific TWh contributions of petroleum and natural gas to the total fossil fuel usage?
+
+Compare the characteristics, advantages, and common applications of "Tubular Towers" versus "Lattice Towers" in wind turbine systems.
+
+Explain the proposed thermal cycle that combines hydrogen and steam turbines with a water photolysis pool (WPP).
+
+
+--- International.pdf
+
+What are the five main criteria used to prioritize renewable energy investments in Türkiye, and which two are considered the most important?
+
+Based on the study's fuzzy AHP approach, what is the final ranking of the most suitable renewable energy sources for Türkiye?
+
+In the technical sub-criteria for energy investments, what specific weights were calculated for "ease of implementation," "operational life," and "technology maturity"?
+
+
+--- Complementarity.pdf
+
+By what percentage can the coordination between shared mobility service providers and Energy Communities reduce yearly costs and substation transformer stress?
+
+Describe the "Mixed-Integer Second Order Cone Programming" model presented in the paper and what specific network it was tested on.
+
+How does the paper define "Renewable Energy Communities" (REC) in the context of the EU’s Clean Energy Package?
+
+
+--- Sustainability.pdf
+
+What are the primary factors (consumer values) that influence EV drivers when choosing between different public charging stations?
+
+Describe the participant demographics and study design used to investigate user preferences for renewable energy in EV charging.
+
+According to the document, what specific bans or policies have the EU and UK established regarding petrol and diesel cars to achieve climate neutrality?

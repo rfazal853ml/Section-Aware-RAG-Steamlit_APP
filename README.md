@@ -17,3 +17,70 @@ This repository contains a specialized Retrieval-Augmented Generation (RAG) syst
 * **Interface:** `Streamlit`
 
 ---
+
+## 📋 Prerequisites
+
+Ensure you have the following API keys:
+1.  **Mistral AI API Key**
+2.  **Pinecone API Key**
+
+### Pinecone Web Setup
+1.  Log in to your [Pinecone Dashboard](https://app.pinecone.io/).
+2.  Create a **New Index**.
+3.  **Index Name:** `unstructdocwithmetadata` (must match the name in `app.py`).
+4.  **Dimensions:** Set to `1024` (to match `mistral-embed`).
+5.  **Metric:** `cosine`.
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd <repo-name>
+   ```
+
+2. **Create and activate a virtual environment:**
+   ```bash
+   # Windows
+   python -3.11 -m venv venv
+   .\venv\Scripts\activate
+
+   # macOS/Linux
+   python3.11 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+4. **Configure Environment Variables:**
+   Create a `.env` file in the root directory:
+   ```env
+   Mistral_api_key=your_mistral_api_key_here
+   Pinecone_api_key=your_pinecone_api_key_here
+   ```
+
+## 🏃 How to Run
+
+Launch the application using Streamlit:
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📂 Project Structure
+* `app.py`: The Streamlit frontend and chat session logic.
+* `functionality.py`: The `RAGSystem` class orchestrating retrieval, scoring, and generation.
+* `prompts.py`: Logic for the scoring rubric and the research assistant's persona.
+* `requirements.txt`: Project dependencies.
+* `questions.txt`: Example queries for testing the system.
+
+---
+*Developed as a precision-oriented information retriever for complex document structures.*
